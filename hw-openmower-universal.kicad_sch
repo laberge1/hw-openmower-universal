@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e12e8a63-1d1b-4736-9aba-a87a258b2b11")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,6 +110,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "mousebites:Mousebite_4"
 			(exclude_from_sim no)
@@ -229,6 +234,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "mousebites:Mousebite_8"
 			(exclude_from_sim no)
@@ -424,12 +430,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -520,7 +531,50 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 429.26 8.89)
+		(end 857.25 279.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ece56f25-dfed-4f42-8822-f97226a7a379)
+	)
+	(text "Left ESC"
+		(exclude_from_sim no)
+		(at 138.684 74.168 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c792656-e730-4071-bd56-5bad1168f76e")
+	)
+	(text "Center ESC"
+		(exclude_from_sim no)
+		(at 168.91 72.898 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "90cc9003-3d79-4b2e-96de-aa2344e94544")
+	)
+	(text "Right ESC"
+		(exclude_from_sim no)
+		(at 199.39 73.66 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8e64abb-8069-4f31-bd4d-92e7fa32e617")
 	)
 	(junction
 		(at 21.59 250.19)
@@ -3914,51 +3968,8 @@
 		)
 		(uuid "ff912924-5783-4628-a18f-25e5a59942fb")
 	)
-	(rectangle
-		(start 429.26 8.89)
-		(end 857.25 279.4)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ece56f25-dfed-4f42-8822-f97226a7a379)
-	)
-	(text "Left ESC"
-		(exclude_from_sim no)
-		(at 138.684 74.168 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0c792656-e730-4071-bd56-5bad1168f76e")
-	)
-	(text "Center ESC"
-		(exclude_from_sim no)
-		(at 168.91 72.898 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "90cc9003-3d79-4b2e-96de-aa2344e94544")
-	)
-	(text "Right ESC"
-		(exclude_from_sim no)
-		(at 199.39 73.66 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e8e64abb-8069-4f31-bd4d-92e7fa32e617")
-	)
 	(label "5V"
 		(at 100.33 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3969,7 +3980,6 @@
 	)
 	(label "UART4.RX"
 		(at 91.44 140.97 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3980,7 +3990,6 @@
 	)
 	(label "UART6.RX"
 		(at 88.9 163.83 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3991,7 +4000,6 @@
 	)
 	(label "I2C1.SDA"
 		(at 101.6 140.97 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4002,7 +4010,6 @@
 	)
 	(label "AGPIO4"
 		(at 96.52 176.53 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4013,7 +4020,6 @@
 	)
 	(label "5V"
 		(at 151.13 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4024,7 +4030,6 @@
 	)
 	(label "AGPIO1"
 		(at 134.62 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4035,7 +4040,6 @@
 	)
 	(label "UART4.TX"
 		(at 193.04 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4046,7 +4050,6 @@
 	)
 	(label "AGPIO4"
 		(at 83.82 140.97 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4057,7 +4060,6 @@
 	)
 	(label "5V"
 		(at 68.58 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4068,7 +4070,6 @@
 	)
 	(label "AGPIO1"
 		(at 71.12 114.3 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4079,7 +4080,6 @@
 	)
 	(label "V_BATTERY"
 		(at 58.42 107.95 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4090,7 +4090,6 @@
 	)
 	(label "V_BATTERY"
 		(at 179.07 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4101,7 +4100,6 @@
 	)
 	(label "UART1.RX"
 		(at 92.71 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4112,7 +4110,6 @@
 	)
 	(label "UART1.RX"
 		(at 129.54 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4123,7 +4120,6 @@
 	)
 	(label "V_BATTERY"
 		(at 57.15 181.61 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4134,7 +4130,6 @@
 	)
 	(label "AGPIO1"
 		(at 97.79 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4145,7 +4140,6 @@
 	)
 	(label "V_BATTERY"
 		(at 52.07 231.14 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4156,7 +4150,6 @@
 	)
 	(label "UART4.TX"
 		(at 93.98 140.97 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4167,7 +4160,6 @@
 	)
 	(label "AGPIO2"
 		(at 71.12 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4178,7 +4170,6 @@
 	)
 	(label "UART2.TX"
 		(at 93.98 116.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4189,7 +4180,6 @@
 	)
 	(label "UART6.TX"
 		(at 86.36 140.97 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4200,7 +4190,6 @@
 	)
 	(label "UART2.TX"
 		(at 162.56 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4211,7 +4200,6 @@
 	)
 	(label "UART4.RX"
 		(at 190.5 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4222,7 +4210,6 @@
 	)
 	(label "UART2.TX"
 		(at 73.66 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4233,7 +4220,6 @@
 	)
 	(label "UART2{TX RX}"
 		(at 226.06 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4244,7 +4230,6 @@
 	)
 	(label "AGPIO3"
 		(at 195.58 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4255,7 +4240,6 @@
 	)
 	(label "UART4.TX"
 		(at 73.66 160.02 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4266,7 +4250,6 @@
 	)
 	(label "UART1.TX"
 		(at 73.66 114.3 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4277,7 +4260,6 @@
 	)
 	(label "UART1{TX RX}"
 		(at 241.3 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4288,7 +4270,6 @@
 	)
 	(label "UART2.RX"
 		(at 76.2 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4299,7 +4280,6 @@
 	)
 	(label "I2C1.SCL"
 		(at 91.44 176.53 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4310,7 +4290,6 @@
 	)
 	(label "5V"
 		(at 68.58 160.02 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4321,7 +4300,6 @@
 	)
 	(label "AGPIO4"
 		(at 125.73 160.02 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4332,7 +4310,6 @@
 	)
 	(label "UART6{TX RX}"
 		(at 269.24 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4343,7 +4320,6 @@
 	)
 	(label "UART6.RX"
 		(at 88.9 140.97 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4354,7 +4330,6 @@
 	)
 	(label "V_BATTERY"
 		(at 58.42 153.67 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4365,7 +4340,6 @@
 	)
 	(label "UART6.RX"
 		(at 266.7 147.32 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4376,7 +4350,6 @@
 	)
 	(label "V_BATTERY"
 		(at 53.34 208.28 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4387,7 +4360,6 @@
 	)
 	(label "I2C1.SCL"
 		(at 99.06 116.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4398,7 +4370,6 @@
 	)
 	(label "5V"
 		(at 93.98 163.83 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4409,7 +4380,6 @@
 	)
 	(label "UART6.TX"
 		(at 91.44 163.83 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4420,7 +4390,6 @@
 	)
 	(label "AGPIO2"
 		(at 165.1 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4431,7 +4400,6 @@
 	)
 	(label "UART2.RX"
 		(at 91.44 116.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4442,7 +4410,6 @@
 	)
 	(label "UART4.RX"
 		(at 76.2 160.02 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4453,7 +4420,6 @@
 	)
 	(label "UART4{TX RX}"
 		(at 226.06 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4464,7 +4430,6 @@
 	)
 	(label "UART6.TX"
 		(at 264.16 147.32 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4475,7 +4440,6 @@
 	)
 	(label "AGPIO3"
 		(at 71.12 160.02 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4486,7 +4450,6 @@
 	)
 	(label "V_BATTERY"
 		(at 58.42 130.81 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4497,7 +4460,6 @@
 	)
 	(label "UART2.RX"
 		(at 160.02 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4508,7 +4470,6 @@
 	)
 	(label "I2C1{SDA SCL}"
 		(at 264.16 105.41 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4519,7 +4480,6 @@
 	)
 	(label "5V"
 		(at 120.65 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4530,7 +4490,6 @@
 	)
 	(label "V_BATTERY"
 		(at 148.59 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4541,7 +4500,6 @@
 	)
 	(label "5V"
 		(at 93.98 176.53 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4552,7 +4510,6 @@
 	)
 	(label "5V"
 		(at 181.61 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4563,7 +4520,6 @@
 	)
 	(label "AGPIO3"
 		(at 99.06 140.97 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4574,7 +4530,6 @@
 	)
 	(label "UART1.TX"
 		(at 95.25 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4585,7 +4540,6 @@
 	)
 	(label "V_BATTERY"
 		(at 118.11 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4596,7 +4550,6 @@
 	)
 	(label "I2C1.SDA"
 		(at 88.9 176.53 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4607,7 +4560,6 @@
 	)
 	(label "V_BATTERY"
 		(at 80.01 251.46 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4618,7 +4570,6 @@
 	)
 	(label "UART1.TX"
 		(at 132.08 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4629,7 +4580,6 @@
 	)
 	(label "AGPIO2"
 		(at 96.52 116.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4640,7 +4590,6 @@
 	)
 	(label "V_BATTERY"
 		(at 53.34 254 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4651,7 +4600,6 @@
 	)
 	(label "UART1.RX"
 		(at 76.2 114.3 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4662,7 +4610,6 @@
 	)
 	(label "5V"
 		(at 68.58 114.3 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23609,6 +23556,10 @@
 	(sheet
 		(at 175.26 49.53)
 		(size 25.4 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -23638,53 +23589,53 @@
 		)
 		(pin "TX" output
 			(at 190.5 78.74 270)
+			(uuid "dc03c59e-113d-4064-b92a-02db238c9470")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dc03c59e-113d-4064-b92a-02db238c9470")
 		)
 		(pin "RX" input
 			(at 193.04 78.74 270)
+			(uuid "98e21ca0-f6ce-4c22-87de-375030cce07b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "98e21ca0-f6ce-4c22-87de-375030cce07b")
 		)
 		(pin "SHUTDOWN" input
 			(at 195.58 78.74 270)
+			(uuid "0ad08ee2-0224-4f1f-a41f-f4cbabadabe7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0ad08ee2-0224-4f1f-a41f-f4cbabadabe7")
 		)
 		(pin "VBATT" input
 			(at 179.07 78.74 270)
+			(uuid "a6f4265b-cb8c-4718-b0c1-f4f7453a1499")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a6f4265b-cb8c-4718-b0c1-f4f7453a1499")
 		)
 		(pin "5V_Main" input
 			(at 181.61 78.74 270)
+			(uuid "b79b9534-867d-4370-9004-2aee550ceeec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b79b9534-867d-4370-9004-2aee550ceeec")
 		)
 		(instances
 			(project "hw-openmower-universal"
@@ -23697,6 +23648,10 @@
 	(sheet
 		(at 199.39 163.83)
 		(size 100.33 67.31)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -23726,33 +23681,33 @@
 		)
 		(pin "TXD" output
 			(at 266.7 163.83 90)
+			(uuid "a058941d-0c6e-4aa7-9676-cfe71e31af5c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a058941d-0c6e-4aa7-9676-cfe71e31af5c")
 		)
 		(pin "RXD" input
 			(at 264.16 163.83 90)
+			(uuid "17fbd269-28c3-4c77-80da-08f32da6a07f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "17fbd269-28c3-4c77-80da-08f32da6a07f")
 		)
 		(pin "5V" input
 			(at 276.86 163.83 90)
+			(uuid "4bdc27b8-89c5-4c01-9d3d-f180d8a2e3e5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4bdc27b8-89c5-4c01-9d3d-f180d8a2e3e5")
 		)
 		(instances
 			(project "hw-openmower-universal"
@@ -23765,6 +23720,10 @@
 	(sheet
 		(at 114.3 163.83)
 		(size 78.74 67.31)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -23794,43 +23753,43 @@
 		)
 		(pin "V_CHARGE_SENSE" input
 			(at 125.73 163.83 90)
+			(uuid "7b0f55df-b548-48eb-9d91-e9909bed2a95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7b0f55df-b548-48eb-9d91-e9909bed2a95")
 		)
 		(pin "I2C{SDA SCL}" input
 			(at 132.08 163.83 90)
+			(uuid "4f44ef5e-13c7-43cf-a91e-2348042efad2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4f44ef5e-13c7-43cf-a91e-2348042efad2")
 		)
 		(pin "5V" input
 			(at 134.62 163.83 90)
+			(uuid "94e96fe1-ae71-40e1-a0af-42dad977d133")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "94e96fe1-ae71-40e1-a0af-42dad977d133")
 		)
 		(pin "V_BATTERY" output
 			(at 148.59 163.83 90)
+			(uuid "9d0e640e-2cea-4369-b928-ba9ee91c4d3d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9d0e640e-2cea-4369-b928-ba9ee91c4d3d")
 		)
 		(instances
 			(project "hw-openmower-universal"
@@ -23843,6 +23802,10 @@
 	(sheet
 		(at 114.3 49.53)
 		(size 25.4 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -23872,53 +23835,53 @@
 		)
 		(pin "TX" output
 			(at 129.54 78.74 270)
+			(uuid "fe92485c-56ba-4376-971a-8e3410462610")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fe92485c-56ba-4376-971a-8e3410462610")
 		)
 		(pin "RX" input
 			(at 132.08 78.74 270)
+			(uuid "9a8f7d5b-7b12-4785-bcfb-f572eda0f878")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9a8f7d5b-7b12-4785-bcfb-f572eda0f878")
 		)
 		(pin "SHUTDOWN" input
 			(at 134.62 78.74 270)
+			(uuid "db72867f-72fc-4042-a7a0-8554cf68a24b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "db72867f-72fc-4042-a7a0-8554cf68a24b")
 		)
 		(pin "VBATT" input
 			(at 118.11 78.74 270)
+			(uuid "0b2a0cd5-1eb2-46ef-b82a-931d339758db")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0b2a0cd5-1eb2-46ef-b82a-931d339758db")
 		)
 		(pin "5V_Main" input
 			(at 120.65 78.74 270)
+			(uuid "179bd656-2ede-40ca-b816-db2394ce4316")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "179bd656-2ede-40ca-b816-db2394ce4316")
 		)
 		(instances
 			(project "hw-openmower-universal"
@@ -23931,6 +23894,10 @@
 	(sheet
 		(at 144.78 49.53)
 		(size 25.4 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -23940,7 +23907,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "35c1a146-5cd7-4cc8-a12d-17de73f02598")
-		(property "Sheetname" "xESC1"
+		(property "Sheetname" "m"
 			(at 144.0684 78.74 90)
 			(effects
 				(font
@@ -23949,7 +23916,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "xESC.kicad_sch"
+		(property "Sheetfile" "xESC_mower.kicad_sch"
 			(at 170.7646 78.74 90)
 			(effects
 				(font
@@ -23960,53 +23927,53 @@
 		)
 		(pin "TX" output
 			(at 160.02 78.74 270)
+			(uuid "cc8bc67b-4dab-4b1d-98f4-216b00c396b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cc8bc67b-4dab-4b1d-98f4-216b00c396b3")
 		)
 		(pin "RX" input
 			(at 162.56 78.74 270)
+			(uuid "85ae8473-5e49-4938-af3a-c6f04f88dcc4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "85ae8473-5e49-4938-af3a-c6f04f88dcc4")
 		)
 		(pin "SHUTDOWN" input
 			(at 165.1 78.74 270)
+			(uuid "bc2de111-674e-4ce8-a7d7-cf75b07115fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bc2de111-674e-4ce8-a7d7-cf75b07115fc")
 		)
 		(pin "VBATT" input
 			(at 148.59 78.74 270)
+			(uuid "908b44f7-1e31-4178-8e41-909a84ff455a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "908b44f7-1e31-4178-8e41-909a84ff455a")
 		)
 		(pin "5V_Main" input
 			(at 151.13 78.74 270)
+			(uuid "37b1a1c7-25a9-478e-af2a-1624bfaf3993")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "37b1a1c7-25a9-478e-af2a-1624bfaf3993")
 		)
 		(instances
 			(project "hw-openmower-universal"
@@ -24019,6 +23986,10 @@
 	(sheet
 		(at 208.28 49.53)
 		(size 91.44 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -24048,83 +24019,83 @@
 		)
 		(pin "I2C1{SDA SCL}" output
 			(at 264.16 100.33 270)
+			(uuid "b0f87f9a-46c1-4a58-a861-e09ff196a01a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b0f87f9a-46c1-4a58-a861-e09ff196a01a")
 		)
 		(pin "UART2{TX RX}" output
 			(at 251.46 100.33 270)
+			(uuid "5b914ff3-0dbc-4b63-a2ed-ac74f3ce06ad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5b914ff3-0dbc-4b63-a2ed-ac74f3ce06ad")
 		)
 		(pin "UART1{TX RX}" output
 			(at 256.54 100.33 270)
+			(uuid "738182e8-b72a-442a-82f8-081ad0b23ccc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "738182e8-b72a-442a-82f8-081ad0b23ccc")
 		)
 		(pin "UART4{TX RX}" output
 			(at 246.38 100.33 270)
+			(uuid "485ae79c-b57f-4d76-9b59-de4bb415de89")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "485ae79c-b57f-4d76-9b59-de4bb415de89")
 		)
 		(pin "UART6{TX RX}" output
 			(at 269.24 100.33 270)
+			(uuid "03574bbd-2c69-462f-84f6-b976ed517aa8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "03574bbd-2c69-462f-84f6-b976ed517aa8")
 		)
 		(pin "5V" output
 			(at 287.02 100.33 270)
+			(uuid "78f4a32a-d359-4d1e-bdd1-9b27f4c8eea5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "78f4a32a-d359-4d1e-bdd1-9b27f4c8eea5")
 		)
 		(pin "V_BATTERY" input
 			(at 289.56 100.33 270)
+			(uuid "78ca04ed-8756-42a4-8568-42af86b27594")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "78ca04ed-8756-42a4-8568-42af86b27594")
 		)
 		(pin "AGPIO[0..5]" output
 			(at 241.3 100.33 270)
+			(uuid "93a7b239-81fc-4968-8570-4427cf7735f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "93a7b239-81fc-4968-8570-4427cf7735f3")
 		)
 		(instances
 			(project "hw-openmower-universal"
@@ -24139,4 +24110,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

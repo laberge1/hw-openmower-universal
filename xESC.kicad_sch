@@ -1,13 +1,355 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ab594191-73ff-44e0-9b16-d7ac98f0a6cb")
 	(paper "A3")
 	(lib_symbols
+		(symbol "10127820-0821LF:10127820-0821LF"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -8.89 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "10127820-0821LF"
+				(at -8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "10127820-0821LF:AMPHENOL_10127820-0821LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Amphenol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "12.80 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "10127820-0821LF_0_0"
+				(rectangle
+					(start -8.89 -7.62)
+					(end 8.89 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 2.2225)
+					(end -6.6675 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -8.255 -0.3175)
+					(end -6.6675 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -8.255 -2.8575)
+					(end -6.6675 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -8.255 -5.3975)
+					(end -6.6675 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.6675 2.2225)
+					(end 8.255 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.6675 -0.3175)
+					(end 8.255 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.6675 -2.8575)
+					(end 8.255 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.6675 -5.3975)
+					(end 8.255 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -84,9 +426,10 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -109,7 +452,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
 					)
 					(stroke
 						(width 0.1524)
@@ -131,10 +474,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
+				(circle
+					(center 0 0)
+					(radius 0.635)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -144,7 +486,7 @@
 					)
 				)
 				(circle
-					(center 0 0)
+					(center 0 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -191,10 +533,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -271,20 +616,9 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
 					)
 					(stroke
 						(width 0.1524)
@@ -308,7 +642,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 					)
 					(stroke
 						(width 0.1524)
@@ -320,7 +654,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
 						(width 0.1524)
@@ -344,8 +678,19 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -366,7 +711,7 @@
 					)
 				)
 				(circle
-					(center 0 2.54)
+					(center 0 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -431,10 +776,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -501,14 +849,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -523,14 +871,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -570,10 +918,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -640,30 +991,19 @@
 			)
 			(symbol "Conn_01x05_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -684,8 +1024,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -695,14 +1035,25 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -796,10 +1147,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -866,8 +1220,19 @@
 			)
 			(symbol "Conn_02x03_Odd_Even_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -888,8 +1253,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -899,19 +1264,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -932,8 +1286,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -961,24 +1315,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
@@ -989,24 +1325,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1033,6 +1351,42 @@
 					)
 				)
 				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_6"
@@ -1051,9 +1405,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1126,7 +1483,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1138,7 +1495,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1187,9 +1544,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1345,11 +1705,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D_Schottky"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1417,10 +1782,10 @@
 			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1441,10 +1806,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1490,11 +1855,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D_TVS"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1562,10 +1932,10 @@
 			(symbol "D_TVS_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1586,10 +1956,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1635,11 +2005,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1706,32 +2081,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -1743,8 +2094,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1792,11 +2167,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1864,10 +2244,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1888,7 +2280,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1900,22 +2292,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1961,9 +2341,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -2082,11 +2465,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:SS14"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2154,10 +2542,10 @@
 			(symbol "SS14_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2178,10 +2566,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2227,6 +2615,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Regulator_Switching:LV2862XDDC"
 			(pin_names
@@ -2313,53 +2702,17 @@
 				)
 			)
 			(symbol "LV2862XDDC_1_1"
-				(pin input line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "CB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 0 -10.16 90)
+					(at -12.7 5.08 0)
 					(length 2.54)
-					(name "GND"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2386,16 +2739,34 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 5.08 0)
+					(at 0 -10.16 90)
 					(length 2.54)
-					(name "VIN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "CB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2421,13 +2792,36 @@
 						)
 					)
 				)
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2518,6 +2912,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "xESC2:xESC2"
 			(exclude_from_sim no)
@@ -2575,6 +2970,14 @@
 						)
 					)
 				)
+				(text "Power In"
+					(at -16.51 46.99 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(text "Motor Sensors"
 					(at 8.89 31.75 0)
 					(effects
@@ -2585,14 +2988,6 @@
 				)
 				(text "Phases"
 					(at 12.7 46.99 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "Power In"
-					(at -16.51 46.99 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2615,16 +3010,52 @@
 			)
 			(symbol "xESC2_1_1"
 				(pin input line
-					(at -24.13 -10.16 0)
+					(at -24.13 43.18 0)
 					(length 2.54)
-					(name "CAN_L"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 39.37 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 35.56 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2705,6 +3136,24 @@
 					)
 				)
 				(pin input line
+					(at -24.13 -10.16 0)
+					(length 2.54)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -24.13 -13.97 0)
 					(length 2.54)
 					(name "CAN_H"
@@ -2715,6 +3164,60 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 44.45 180)
+					(length 2.54)
+					(name "U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 40.64 180)
+					(length 2.54)
+					(name "V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 36.83 180)
+					(length 2.54)
+					(name "W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2777,24 +3280,6 @@
 					)
 				)
 				(pin input line
-					(at -24.13 39.37 0)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 19.05 17.78 180)
 					(length 2.54)
 					(name "HALL_W"
@@ -2812,97 +3297,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -24.13 35.56 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 44.45 180)
-					(length 2.54)
-					(name "U"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "U"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 40.64 180)
-					(length 2.54)
-					(name "V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -24.13 43.18 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "VM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 36.83 180)
-					(length 2.54)
-					(name "W"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "W"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "xtech:Dummy"
 			(exclude_from_sim no)
@@ -2974,7 +3370,63 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 34.29 17.78)
+		(end 200.66 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34b495f2-2957-475d-8f56-dee490691d30)
+	)
+	(rectangle
+		(start 207.01 17.78)
+		(end 383.54 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 75749455-75e0-4eec-9a93-d61493522290)
+	)
+	(text "Diode can be removed, when DCDC is not in the design"
+		(exclude_from_sim no)
+		(at 62.484 70.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "352ce349-f3c4-41a1-8187-40b32820eea1")
+	)
+	(text "Connectors to join the PCBs when separated.\nAll hierachical inputs need to be here in order to restore the connections."
+		(exclude_from_sim no)
+		(at 245.11 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a85b1152-7373-4832-a2cb-fce80d500eab")
+	)
+	(text "Generates 5V on the sub-PCB.\n\nThis is only necessary when splitting the PCB \nand using it in stand-alone operation.\n\nIf you design an integrated solution, use the 5V from the \nmain DCDC instead to save on cost and solution size."
+		(exclude_from_sim no)
+		(at 35.306 26.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc450ab4-16e5-4a44-80ea-8a4f7d5f656c")
 	)
 	(junction
 		(at 54.61 100.33)
@@ -3382,6 +3834,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 161.29) (xy 251.46 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e447ff6-4fe0-409f-9c46-8fa16fb9a6e6")
+	)
+	(wire
+		(pts
 			(xy 175.26 34.29) (xy 177.8 34.29)
 		)
 		(stroke
@@ -3522,6 +3984,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 158.75) (xy 255.27 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547cd724-45c3-463d-b66b-cfdd260e3eab")
+	)
+	(wire
+		(pts
 			(xy 152.4 39.37) (xy 167.64 39.37)
 		)
 		(stroke
@@ -3559,6 +4031,16 @@
 			(type default)
 		)
 		(uuid "5b39b3ef-ad19-4d1c-9277-692883a79c1f")
+	)
+	(wire
+		(pts
+			(xy 220.98 153.67) (xy 224.79 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d0d55fa-d4b8-4d96-bc96-9ee4c420f971")
 	)
 	(wire
 		(pts
@@ -3652,6 +4134,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 161.29) (xy 251.46 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730cbe8b-f3e7-4652-af4d-6ea84d79df68")
+	)
+	(wire
+		(pts
 			(xy 52.07 36.83) (xy 69.85 36.83)
 		)
 		(stroke
@@ -3709,6 +4201,16 @@
 			(type default)
 		)
 		(uuid "7c73ba87-bc52-489c-ad3b-347fdde1b396")
+	)
+	(wire
+		(pts
+			(xy 220.98 158.75) (xy 224.79 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f624d68-4a06-4ed9-8b68-1184241cebe0")
 	)
 	(wire
 		(pts
@@ -3809,6 +4311,16 @@
 			(type default)
 		)
 		(uuid "90fe3a07-36f8-4c2c-b4d5-9faa02693574")
+	)
+	(wire
+		(pts
+			(xy 250.19 156.21) (xy 255.27 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938a54ee-0486-49c9-b13f-5c8ad3d506e7")
 	)
 	(wire
 		(pts
@@ -3952,6 +4464,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 161.29) (xy 224.79 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab063a3a-b751-4f8d-9a03-fef188cdd336")
+	)
+	(wire
+		(pts
+			(xy 250.19 153.67) (xy 255.27 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad25cb1c-d26d-4632-9bce-8d3351a09508")
+	)
+	(wire
+		(pts
 			(xy 124.46 30.48) (xy 118.11 30.48)
 		)
 		(stroke
@@ -4039,6 +4571,16 @@
 			(type default)
 		)
 		(uuid "c86286f4-9478-48c3-ba98-d88dcabb854a")
+	)
+	(wire
+		(pts
+			(xy 220.98 156.21) (xy 224.79 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca03fe46-65c8-4e4f-b3f9-828b363fdbf0")
 	)
 	(wire
 		(pts
@@ -4250,64 +4792,8 @@
 		)
 		(uuid "fb548c21-8b03-4434-8db8-b744835edd21")
 	)
-	(rectangle
-		(start 34.29 17.78)
-		(end 200.66 72.39)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 34b495f2-2957-475d-8f56-dee490691d30)
-	)
-	(rectangle
-		(start 207.01 17.78)
-		(end 383.54 72.39)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 75749455-75e0-4eec-9a93-d61493522290)
-	)
-	(text "Diode can be removed, when DCDC is not in the design"
-		(exclude_from_sim no)
-		(at 62.484 70.358 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "352ce349-f3c4-41a1-8187-40b32820eea1")
-	)
-	(text "Connectors to join the PCBs when separated.\nAll hierachical inputs need to be here in order to restore the connections."
-		(exclude_from_sim no)
-		(at 245.11 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a85b1152-7373-4832-a2cb-fce80d500eab")
-	)
-	(text "Generates 5V on the sub-PCB.\n\nThis is only necessary when splitting the PCB \nand using it in stand-alone operation.\n\nIf you design an integrated solution, use the 5V from the \nmain DCDC instead to save on cost and solution size."
-		(exclude_from_sim no)
-		(at 35.306 26.162 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fc450ab4-16e5-4a44-80ea-8a4f7d5f656c")
-	)
 	(label "TX"
 		(at 267.97 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4318,7 +4804,6 @@
 	)
 	(label "5V_Main"
 		(at 354.33 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4329,7 +4814,6 @@
 	)
 	(label "SHUTDOWN"
 		(at 267.97 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4340,7 +4824,6 @@
 	)
 	(label "HALL_SENSOR.W"
 		(at 217.17 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4351,7 +4834,6 @@
 	)
 	(label "PHASE.W"
 		(at 226.06 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4362,7 +4844,6 @@
 	)
 	(label "HALL_SENSOR.U"
 		(at 217.17 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4373,7 +4854,6 @@
 	)
 	(label "5V"
 		(at 132.08 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4384,7 +4864,6 @@
 	)
 	(label "PHASE.V"
 		(at 226.06 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4395,7 +4874,6 @@
 	)
 	(label "PHASE.U"
 		(at 226.06 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4404,9 +4882,18 @@
 		)
 		(uuid "4157ef51-ea81-425d-8e78-e3318c9eadc9")
 	)
+	(label "HALL_SENSOR.V"
+		(at 220.98 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "465a80c3-8100-4c8d-b771-ee002d15aea1")
+	)
 	(label "VBATT"
 		(at 132.08 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4417,7 +4904,6 @@
 	)
 	(label "VBATT"
 		(at 234.95 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4428,7 +4914,6 @@
 	)
 	(label "TX"
 		(at 121.92 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4439,7 +4924,6 @@
 	)
 	(label "VBATT"
 		(at 39.37 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4448,9 +4932,18 @@
 		)
 		(uuid "57825a24-d426-49b9-8c14-a0f2bcaa5ad3")
 	)
+	(label "PHASE.W"
+		(at 255.27 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5940e817-0fcf-4f79-a2a4-933cd869f3f2")
+	)
 	(label "HALL_SENSOR.U"
 		(at 306.07 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4461,7 +4954,6 @@
 	)
 	(label "HALL_SENSOR.V"
 		(at 306.07 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4470,9 +4962,18 @@
 		)
 		(uuid "66c9f5c4-74bb-4d46-9082-dee566c1f23d")
 	)
+	(label "PHASE.V"
+		(at 255.27 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71a9baf9-d56b-4f36-a39c-b9d8ea8caf2b")
+	)
 	(label "HALL_SENSOR.V"
 		(at 217.17 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4483,7 +4984,6 @@
 	)
 	(label "HALL_SENSOR.W"
 		(at 306.07 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4494,7 +4994,6 @@
 	)
 	(label "RX"
 		(at 121.92 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4503,9 +5002,18 @@
 		)
 		(uuid "82c3a781-fb8a-4849-abe3-2bc29b2dcf34")
 	)
+	(label "PHASE.U"
+		(at 255.27 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91f68777-eec2-4e23-8fb7-bd1e9296407e")
+	)
 	(label "VBATT"
 		(at 234.95 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4514,9 +5022,18 @@
 		)
 		(uuid "99afebf0-98d3-409a-baa6-1c76882d9e15")
 	)
+	(label "5V_Main"
+		(at 220.98 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a51c4ca9-de1b-4a84-acc6-4bdfa0de559c")
+	)
 	(label "Temperature"
 		(at 217.17 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4527,7 +5044,6 @@
 	)
 	(label "5V_Main"
 		(at 267.97 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4538,7 +5054,6 @@
 	)
 	(label "5V"
 		(at 187.96 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4547,9 +5062,18 @@
 		)
 		(uuid "a6f1a42b-08e0-4594-b8a3-1b5baeb7f224")
 	)
+	(label "HALL_SENSOR.W"
+		(at 220.98 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7038069-7932-4552-bcf4-bf6e0e671e17")
+	)
 	(label "5V"
 		(at 72.39 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4560,7 +5084,6 @@
 	)
 	(label "SHUTDOWN"
 		(at 121.92 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4571,7 +5094,6 @@
 	)
 	(label "5V"
 		(at 162.56 34.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4580,9 +5102,18 @@
 		)
 		(uuid "d6f8226e-715e-4219-bd99-b1bc08e2ef03")
 	)
+	(label "HALL_SENSOR.U"
+		(at 220.98 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc082247-90f1-4858-a660-3023b7534e90")
+	)
 	(label "5V"
 		(at 254 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4593,7 +5124,6 @@
 	)
 	(label "RX"
 		(at 267.97 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4604,7 +5134,6 @@
 	)
 	(label "5V_Main"
 		(at 48.26 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4615,7 +5144,6 @@
 	)
 	(label "Temperature"
 		(at 254 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4627,7 +5155,6 @@
 	(hierarchical_label "RX"
 		(shape input)
 		(at 100.33 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4639,7 +5166,6 @@
 	(hierarchical_label "VBATT"
 		(shape input)
 		(at 29.21 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4651,7 +5177,6 @@
 	(hierarchical_label "5V_Main"
 		(shape input)
 		(at 44.45 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4663,7 +5188,6 @@
 	(hierarchical_label "SHUTDOWN"
 		(shape input)
 		(at 100.33 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4675,7 +5199,6 @@
 	(hierarchical_label "TX"
 		(shape output)
 		(at 100.33 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4743,16 +5266,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR029")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR030")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4918,16 +5437,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "D4")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "D24")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "D28")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5437,16 +5952,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "D31")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "D32")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "D33")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -5956,16 +6467,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C97")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C98")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C99")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -5981,7 +6488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b2a79cf-ab46-4f8f-b0aa-24517521605e")
-		(property "Reference" "U41"
+		(property "Reference" "U39"
 			(at 45.72 225.4249 0)
 			(effects
 				(font
@@ -6477,10 +6984,6 @@
 					(reference "U39")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "U40")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6543,16 +7046,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR035")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR069")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6568,7 +7067,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0ebbdf99-84be-4f7e-8f8f-65247810af5e")
-		(property "Reference" "D17"
+		(property "Reference" "D7"
 			(at 120.65 102.8699 90)
 			(effects
 				(font
@@ -7079,10 +7578,6 @@
 					(reference "D7")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "D11")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7096,7 +7591,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "14c34b73-7088-4098-ab21-7312ad3c7665")
-		(property "Reference" "U10"
+		(property "Reference" "U8"
 			(at 163.83 88.9 0)
 			(effects
 				(font
@@ -7629,10 +8124,6 @@
 					(reference "U8")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "U9")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7809,16 +8300,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "U28")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "U29")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "U47")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "U28")
 					(unit 1)
 				)
 			)
@@ -7883,16 +8370,83 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
+					(reference "#PWR028")
+					(unit 1)
+				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
 					(reference "#PWR026")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR027")
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 162.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25221460-9139-4bae-a3a6-5e2553d04556")
+		(property "Reference" "#PWR045"
+			(at 251.46 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf597a18-cfb4-4e40-bf77-76ac3fce6255")
+		)
+		(instances
+			(project "hw-openmower-universal"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
+					(reference "#PWR046")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
-					(reference "#PWR028")
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8060,16 +8614,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C76")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C109")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C110")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -8085,7 +8635,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2b0e4d6a-78c2-483a-bf28-95187f2e29d6")
-		(property "Reference" "D20"
+		(property "Reference" "D10"
 			(at 218.44 106.68 0)
 			(effects
 				(font
@@ -8594,10 +9144,6 @@
 					(reference "D10")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "D14")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -8611,7 +9157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37733a49-1ca2-47c7-87e3-7ccce9a70de9")
-		(property "Reference" "U20"
+		(property "Reference" "U18"
 			(at 87.63 202.5649 0)
 			(effects
 				(font
@@ -9105,10 +9651,6 @@
 				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
 					(reference "U18")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -9616,16 +10158,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C10")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C101")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C106")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9691,16 +10229,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR085")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR086")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -10210,16 +10744,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "R27")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "R30")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10235,7 +10765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51388385-c9a1-40ef-8720-9e00e1918965")
-		(property "Reference" "C75"
+		(property "Reference" "C67"
 			(at 128.27 102.8699 0)
 			(effects
 				(font
@@ -10737,10 +11267,6 @@
 					(reference "C67")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C71")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -10870,16 +11396,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "J18")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "J25")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "J26")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -11389,16 +11911,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C3")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C100")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C105")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11463,16 +11981,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR01")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR036")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11488,7 +12002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57569545-1aa6-4261-af7b-9476185a7140")
-		(property "Reference" "U38"
+		(property "Reference" "U36"
 			(at 45.72 217.8049 0)
 			(effects
 				(font
@@ -11984,10 +12498,6 @@
 					(reference "U36")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "U37")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -12050,16 +12560,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR021")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR066")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12569,16 +13075,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C61")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C62")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C77")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -12594,7 +13096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6003b951-cdfe-4696-9db5-fa83e3dcd906")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0125"
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -12649,10 +13151,6 @@
 				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
 					(reference "#PWR0125")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -12717,16 +13215,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR0157")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR0159")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR0160")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -12892,16 +13386,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "L5")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "L6")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "L7")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -12917,7 +13407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "632150dd-3b5b-4675-b9d7-09503e830614")
-		(property "Reference" "U35"
+		(property "Reference" "U33"
 			(at 45.72 210.1849 0)
 			(effects
 				(font
@@ -13413,10 +13903,6 @@
 					(reference "U33")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "U34")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -13430,7 +13916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63eb369c-f839-4e8c-b015-f4de6a92be36")
-		(property "Reference" "U32"
+		(property "Reference" "U30"
 			(at 45.72 202.5649 0)
 			(effects
 				(font
@@ -13926,10 +14412,6 @@
 					(reference "U30")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "U31")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -13943,7 +14425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64d51ae6-bdb0-4b60-9943-9bc89f5313a4")
-		(property "Reference" "U23"
+		(property "Reference" "U21"
 			(at 87.63 210.1849 0)
 			(effects
 				(font
@@ -14437,10 +14919,6 @@
 				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
 					(reference "U21")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -14950,16 +15428,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "R64")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "R65")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "R78")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -15469,16 +15943,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C88")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C89")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C90")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -15646,16 +16116,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "R28")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "R31")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -16165,16 +16631,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "D36")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "D37")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "D38")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -16684,16 +17146,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C85")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C86")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C87")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -16709,7 +17167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74eb1fd5-4612-4c4c-b95b-6d33ff0f7098")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0122"
 			(at 106.68 114.3 0)
 			(effects
 				(font
@@ -16764,10 +17222,6 @@
 				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
 					(reference "#PWR0122")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -17277,16 +17731,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C21")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C102")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C107")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -17796,16 +18246,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C1")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C36")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C104")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -17971,16 +18417,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "J39")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "J40")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "J41")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "J39")
 					(unit 1)
 				)
 			)
@@ -18045,16 +18487,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR010")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR037")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -18564,16 +19002,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C35")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C103")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C108")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -18744,16 +19178,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "J22")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "J34")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "J35")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -18920,16 +19350,156 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
+					(reference "R77")
+					(unit 1)
+				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
 					(reference "R43")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "R70")
+			)
+		)
+	)
+	(symbol
+		(lib_id "10127820-0821LF:10127820-0821LF")
+		(at 237.49 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4247268-fc01-4c4d-b929-266430fd834e")
+		(property "Reference" "J33"
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10127820-0821LF"
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "10127820_0821LF:AMPHENOL_10127820-0821LF"
+			(at 237.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 237.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol"
+			(at 237.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "12.80 mm"
+			(at 237.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 237.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "609-10127820-0821LF-ND"
+			(at 237.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "1aefda2a-2bff-43d0-b1d1-215b08d68570")
+		)
+		(pin "8"
+			(uuid "7b8bac1d-6828-4738-97f1-216526cebf25")
+		)
+		(pin "5"
+			(uuid "0e76fece-1740-402d-85dc-44057a5e1a93")
+		)
+		(pin "3"
+			(uuid "8fd40a56-74a3-4acb-9be1-eaee2af950f2")
+		)
+		(pin "6"
+			(uuid "cd25656f-8242-44bb-b080-bd974ad8517b")
+		)
+		(pin "2"
+			(uuid "2d9c0843-a51c-48fc-96ec-287d6608e13d")
+		)
+		(pin "4"
+			(uuid "83201d55-a527-43a6-9686-3da0b55e4a7e")
+		)
+		(pin "1"
+			(uuid "a700cde0-6ff1-4bc5-8cab-55221036505c")
+		)
+		(instances
+			(project ""
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
+					(reference "J46")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
-					(reference "R77")
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "J33")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
+					(reference "J45")
 					(unit 1)
 				)
 			)
@@ -19439,16 +20009,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C91")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C92")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C93")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -19615,16 +20181,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "J42")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "J43")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "J44")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "J42")
 					(unit 1)
 				)
 			)
@@ -20134,16 +20696,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C51")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C52")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C53")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -20159,7 +20717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa44677b-d5d8-4ac7-918b-a44cfac00ef9")
-		(property "Reference" "C72"
+		(property "Reference" "C64"
 			(at 93.98 101.9809 0)
 			(effects
 				(font
@@ -20661,10 +21219,6 @@
 					(reference "C64")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C68")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -20727,16 +21281,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR088")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR089")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR090")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -20752,7 +21302,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b5e3307d-277a-45a8-af9e-d9a6c153888a")
-		(property "Reference" "D18"
+		(property "Reference" "D8"
 			(at 199.39 106.68 0)
 			(effects
 				(font
@@ -21261,10 +21811,6 @@
 					(reference "D8")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "D12")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -21286,7 +21832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "    VS-2EFH02HM3/I"
+		(property "Value" "VS-2EFH02HM3/I"
 			(at 130.048 55.372 90)
 			(effects
 				(font
@@ -21771,16 +22317,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "D22")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "D27")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "D30")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -21948,16 +22490,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "R17")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "R29")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "R32")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -22022,16 +22560,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR032")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR067")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -22209,16 +22743,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "J36")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "J37")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "J38")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "J36")
 					(unit 1)
 				)
 			)
@@ -22728,16 +23258,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "R45")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "R46")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "R60")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -22753,7 +23279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c071a774-c18e-4259-b2fa-5610ae7910d7")
-		(property "Reference" "C74"
+		(property "Reference" "C66"
 			(at 110.49 102.8699 0)
 			(effects
 				(font
@@ -23255,10 +23781,6 @@
 					(reference "C66")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C70")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -23272,7 +23794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1199382-eac3-4f1f-b6d3-d2f26f52c256")
-		(property "Reference" "C73"
+		(property "Reference" "C65"
 			(at 101.6 101.9809 0)
 			(effects
 				(font
@@ -23774,10 +24296,6 @@
 					(reference "C65")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C69")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -23791,7 +24309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0ed16d5-b021-4743-b6cd-bd6b6c3c920c")
-		(property "Reference" "U26"
+		(property "Reference" "U24"
 			(at 87.63 217.8049 0)
 			(effects
 				(font
@@ -24287,10 +24805,6 @@
 					(reference "U24")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "U25")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -24304,7 +24818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c83a9a-c9b1-4068-96b1-e2b95d4fcd79")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0124"
 			(at 124.46 114.3 0)
 			(effects
 				(font
@@ -24359,10 +24873,6 @@
 				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
 					(reference "#PWR0124")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -24872,16 +25382,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C94")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C95")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C96")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -25391,16 +25897,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "C54")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "C57")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "C60")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -25416,7 +25918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcab32c5-4971-4549-9f7b-cbc75d5be46a")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0123"
 			(at 118.11 114.3 0)
 			(effects
 				(font
@@ -25473,10 +25975,6 @@
 					(reference "#PWR0123")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR0129")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -25490,7 +25988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5ead340-c852-4748-a4ba-342dc9caafa8")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0121"
 			(at 90.17 114.3 0)
 			(effects
 				(font
@@ -25547,10 +26045,6 @@
 					(reference "#PWR0121")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR0127")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -25564,7 +26058,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f3e34280-8631-4766-826b-07c4e4a34dce")
-		(property "Reference" "D19"
+		(property "Reference" "D9"
 			(at 209.55 106.68 0)
 			(effects
 				(font
@@ -26073,10 +26567,6 @@
 					(reference "D9")
 					(unit 1)
 				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "D13")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -26139,16 +26629,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR091")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR092")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR093")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -26213,16 +26699,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR056")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR057")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -26287,16 +26769,12 @@
 		)
 		(instances
 			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
-					(reference "#PWR034")
-					(unit 1)
-				)
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/35c1a146-5cd7-4cc8-a12d-17de73f02598"
-					(reference "#PWR068")
-					(unit 1)
-				)
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
 					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/2dcb05ea-788f-4ed6-923e-0b0051e68de3"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
