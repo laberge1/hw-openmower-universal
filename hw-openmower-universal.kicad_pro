@@ -520,7 +520,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "hw-openmower-universal.step",
       "svg": "",
       "vrml": ""
     },
@@ -1072,7 +1072,7 @@
     ],
     [
       "35c1a146-5cd7-4cc8-a12d-17de73f02598",
-      "m"
+      "xESC_motor"
     ],
     [
       "0359b790-c26c-4759-a59f-5a6b50a14036",

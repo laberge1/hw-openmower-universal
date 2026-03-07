@@ -534,18 +534,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 429.26 8.89)
-		(end 857.25 279.4)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ece56f25-dfed-4f42-8822-f97226a7a379)
-	)
 	(text "Left ESC"
 		(exclude_from_sim no)
 		(at 138.684 74.168 90)
@@ -23907,7 +23895,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "35c1a146-5cd7-4cc8-a12d-17de73f02598")
-		(property "Sheetname" "m"
+		(property "Sheetname" "xESC_motor"
 			(at 144.0684 78.74 90)
 			(effects
 				(font

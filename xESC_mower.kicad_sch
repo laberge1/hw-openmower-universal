@@ -24123,6 +24123,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "609-4876-ND"
+			(at 240.03 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "fd452e55-fb18-42a8-87b9-cd0d57b5a37b")
 		)

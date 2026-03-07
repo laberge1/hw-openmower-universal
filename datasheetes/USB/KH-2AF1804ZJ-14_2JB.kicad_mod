@@ -1,0 +1,61 @@
+(footprint "USB_A_KH-2AF1804ZJ-14_2JB"
+  (version 20240108)
+  (generator "pcbnew")
+  (layer "F.Cu")
+  (descr "USB Type-A Right Angle THT - KH-2AF1804ZJ-14.2JB")
+  (tags "USB Type A THT Right Angle")
+  (attr through_hole)
+
+  (fp_text reference "J?" (at 0 -7 0) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_text value "USB_A_KH-2AF1804ZJ" (at 0 7 0) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  ; -------- Signal Pins (2.50mm pitch) --------
+  (pad "1" thru_hole circle (at -3.75 0 0)
+    (size 1.7 1.7) (drill 1.0)
+    (layers "*.Cu" "*.Mask")
+  )
+
+  (pad "2" thru_hole circle (at -1.25 0 0)
+    (size 1.7 1.7) (drill 1.0)
+    (layers "*.Cu" "*.Mask")
+  )
+
+  (pad "3" thru_hole circle (at 1.25 0 0)
+    (size 1.7 1.7) (drill 1.0)
+    (layers "*.Cu" "*.Mask")
+  )
+
+  (pad "4" thru_hole circle (at 3.75 0 0)
+    (size 1.7 1.7) (drill 1.0)
+    (layers "*.Cu" "*.Mask")
+  )
+
+  ; -------- Shield Tabs --------
+  (pad "5" thru_hole oval (at -6.60 2.70 0)
+    (size 3.2 2.2) (drill 1.8)
+    (layers "*.Cu" "*.Mask")
+  )
+
+  (pad "6" thru_hole oval (at 6.60 2.70 0)
+    (size 3.2 2.2) (drill 1.8)
+    (layers "*.Cu" "*.Mask")
+  )
+
+  ; -------- Outline --------
+  (fp_rect (start -7 -6) (end 7 6)
+    (stroke (width 0.12) (type solid))
+    (fill none)
+    (layer "F.SilkS")
+  )
+
+  (fp_rect (start -8 -7) (end 8 7)
+    (stroke (width 0.05) (type solid))
+    (fill none)
+    (layer "F.CrtYd")
+  )
+)
