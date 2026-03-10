@@ -9786,12 +9786,6 @@
 		(uuid "004c5f67-7710-4398-a419-8b97ed6d2843")
 	)
 	(junction
-		(at 125.73 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0606b4cb-e924-4949-a68d-df34c5b3cc5b")
-	)
-	(junction
 		(at 227.33 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9808,12 +9802,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bfc0f0e-cdc6-4576-8043-6833ce9bab7f")
-	)
-	(junction
-		(at 125.73 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "255fb8a3-032e-463f-8ea3-d3b3af684948")
 	)
 	(junction
 		(at 212.09 182.88)
@@ -9906,12 +9894,6 @@
 		(uuid "71f96553-80bb-4075-b4f7-d557d9b03d45")
 	)
 	(junction
-		(at 125.73 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "724cf68d-2c84-4e44-984e-7da87c0041cb")
-	)
-	(junction
 		(at 246.38 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9964,18 +9946,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cd42f91-5eaf-42e2-971c-4ba6d3d3ef30")
-	)
-	(junction
-		(at 125.73 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e150696-2096-4d10-99ba-fbbf3ffb34d5")
-	)
-	(junction
-		(at 125.73 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a179fbc0-1486-4d16-977b-622231e1f219")
 	)
 	(junction
 		(at 62.23 218.44)
@@ -10036,12 +10006,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd4a8711-9b34-43eb-9471-8c8d355bfcad")
-	)
-	(junction
-		(at 125.73 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5849401-8582-4096-850f-1edf452b2ae4")
 	)
 	(junction
 		(at 261.62 210.82)
@@ -10805,16 +10769,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 25.4) (xy 129.54 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0753cdda-f3bf-49d9-82a5-28a12b1292c8")
-	)
-	(wire
-		(pts
 			(xy 125.73 104.14) (xy 125.73 111.76)
 		)
 		(stroke
@@ -10892,26 +10846,6 @@
 			(type default)
 		)
 		(uuid "0aea3ad2-1dd0-4eaf-82aa-1b099f1ca4c9")
-	)
-	(wire
-		(pts
-			(xy 115.57 22.86) (xy 129.54 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b78966b-20ea-488d-b838-a30693eaa89e")
-	)
-	(wire
-		(pts
-			(xy 125.73 66.04) (xy 129.54 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdcc1f1-d45a-4f79-81e0-4ad6b89f658d")
 	)
 	(wire
 		(pts
@@ -11013,16 +10947,6 @@
 		)
 		(uuid "114838a7-9d42-4334-92d2-7ecb634c0427")
 	)
-	(wire
-		(pts
-			(xy 125.73 44.45) (xy 125.73 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1190a304-e05a-437e-b98d-9ceb68b018fc")
-	)
 	(bus
 		(pts
 			(xy 332.74 429.26) (xy 332.74 431.8)
@@ -11045,7 +10969,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 123.19) (xy 125.73 120.65)
+			(xy 125.73 119.38) (xy 125.73 123.19)
 		)
 		(stroke
 			(width 0)
@@ -11062,16 +10986,6 @@
 			(type default)
 		)
 		(uuid "144434d5-24a7-4840-b7b6-cb50d6b34f5a")
-	)
-	(wire
-		(pts
-			(xy 129.54 120.65) (xy 125.73 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "151730a6-d9c2-44b5-93ac-84e738b3c1e5")
 	)
 	(bus
 		(pts
@@ -11125,7 +11039,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 85.09) (xy 125.73 82.55)
+			(xy 125.73 81.28) (xy 125.73 85.09)
 		)
 		(stroke
 			(width 0)
@@ -11245,16 +11159,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 63.5) (xy 129.54 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2231223a-686b-42b9-a3c9-6665c37e8564")
-	)
-	(wire
-		(pts
 			(xy 80.01 87.63) (xy 76.2 87.63)
 		)
 		(stroke
@@ -11282,26 +11186,6 @@
 			(type default)
 		)
 		(uuid "26300abb-3278-42b3-a458-2dcb47be755a")
-	)
-	(wire
-		(pts
-			(xy 115.57 101.6) (xy 129.54 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26434f62-b935-46c1-b32b-dae2ebb0721f")
-	)
-	(wire
-		(pts
-			(xy 115.57 60.96) (xy 129.54 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "268ec761-c2b4-4c51-bb2b-ba01ad36fe42")
 	)
 	(bus
 		(pts
@@ -11402,16 +11286,6 @@
 			(type default)
 		)
 		(uuid "2a07d9b2-8353-4adc-b50a-1abbdae595ee")
-	)
-	(wire
-		(pts
-			(xy 115.57 20.32) (xy 129.54 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a8b4dab-4ad8-4178-a9c7-ba026c3a6d70")
 	)
 	(bus
 		(pts
@@ -11615,16 +11489,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 68.58) (xy 129.54 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37a9dbfe-41f8-4404-b55c-3d10a00e23a1")
-	)
-	(wire
-		(pts
 			(xy 196.85 34.29) (xy 207.01 34.29)
 		)
 		(stroke
@@ -11672,16 +11536,6 @@
 			(type default)
 		)
 		(uuid "394223a8-93bf-4255-8cbb-898c4f45cb6a")
-	)
-	(wire
-		(pts
-			(xy 115.57 58.42) (xy 129.54 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3994d4c5-a7b7-457e-8049-af5325099909")
 	)
 	(wire
 		(pts
@@ -11862,16 +11716,6 @@
 			(type default)
 		)
 		(uuid "4a6563b4-3af7-456b-85e8-69ed463e57cd")
-	)
-	(wire
-		(pts
-			(xy 115.57 99.06) (xy 129.54 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a69a315-dd7d-4446-a6f6-e0d36ed302c6")
 	)
 	(wire
 		(pts
@@ -12665,16 +12509,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 82.55) (xy 125.73 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "837bb5dd-8dbd-4b14-9691-1adcf8ada994")
-	)
-	(wire
-		(pts
 			(xy 45.72 434.34) (xy 67.31 434.34)
 		)
 		(stroke
@@ -13215,16 +13049,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 82.55) (xy 125.73 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af31410d-a953-44b3-8747-eeb54af4b1b5")
-	)
-	(wire
-		(pts
 			(xy 144.78 180.34) (xy 156.21 180.34)
 		)
 		(stroke
@@ -13302,16 +13126,6 @@
 			(type default)
 		)
 		(uuid "b4f27437-0206-4289-9e1c-34b714ff7281")
-	)
-	(wire
-		(pts
-			(xy 125.73 104.14) (xy 129.54 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f67351-e7a8-4eea-8fe4-3722bbf3acbe")
 	)
 	(wire
 		(pts
@@ -13425,16 +13239,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 129.54 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7ba0fb-4385-4041-a6b3-767f2779c64e")
-	)
-	(wire
-		(pts
 			(xy 181.61 412.75) (xy 170.18 412.75)
 		)
 		(stroke
@@ -13505,16 +13309,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 30.48) (xy 129.54 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0af3bba-43c6-4774-bc3c-e6ec8e9097b0")
-	)
-	(wire
-		(pts
 			(xy 59.69 207.01) (xy 62.23 207.01)
 		)
 		(stroke
@@ -13575,16 +13369,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 27.94) (xy 129.54 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6b7efe3-ef94-45bf-ade0-d466f75fb7b2")
-	)
-	(wire
-		(pts
 			(xy 227.33 87.63) (xy 227.33 95.25)
 		)
 		(stroke
@@ -13625,7 +13409,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 46.99) (xy 125.73 44.45)
+			(xy 125.73 43.18) (xy 125.73 46.99)
 		)
 		(stroke
 			(width 0)
@@ -13732,16 +13516,6 @@
 			(type default)
 		)
 		(uuid "ce83efaa-4847-44d4-a3c1-f6dad9ef8cc8")
-	)
-	(wire
-		(pts
-			(xy 115.57 96.52) (xy 129.54 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce8d608c-509d-416f-87a3-9c034e117d82")
 	)
 	(wire
 		(pts
@@ -14215,16 +13989,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 120.65) (xy 125.73 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e81e0d47-88ee-46d0-986d-4c14fe35b268")
-	)
-	(wire
-		(pts
 			(xy 360.68 171.45) (xy 360.68 181.61)
 		)
 		(stroke
@@ -14395,16 +14159,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 44.45) (xy 125.73 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f24db6c3-9642-4082-afff-840edba67d64")
-	)
-	(wire
-		(pts
 			(xy 157.48 458.47) (xy 168.91 458.47)
 		)
 		(stroke
@@ -14553,16 +14307,6 @@
 		)
 		(uuid "07eba3b0-f850-4863-92ce-4962d5cfda42")
 	)
-	(label "UART2.TX"
-		(at 115.57 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0abeaa98-ce05-4889-a19d-fe73f46d5cfe")
-	)
 	(label "UART8.RX"
 		(at 535.94 114.3 180)
 		(effects
@@ -14642,16 +14386,6 @@
 			(justify left bottom)
 		)
 		(uuid "17041627-9634-4b4a-b454-44d5b0e6c2f4")
-	)
-	(label "UART2.RX"
-		(at 115.57 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "183be6f1-54dd-4622-80b8-fcb007fe5114")
 	)
 	(label "STM_SWCLK"
 		(at 368.3 57.15 180)
@@ -14843,16 +14577,6 @@
 		)
 		(uuid "3a1748f0-7123-45b8-8d06-88e3fed1a0d6")
 	)
-	(label "UART1.TX"
-		(at 115.57 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c7dfd33-064a-491c-bf17-363ef44837f0")
-	)
 	(label "UART10.TX"
 		(at 45.72 439.42 0)
 		(effects
@@ -14993,16 +14717,6 @@
 		)
 		(uuid "4b61c92e-eef8-4e92-ac3a-bc3e688e1768")
 	)
-	(label "UART1.RX"
-		(at 115.57 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d309213-6df2-4f28-8244-a2a4a9682a56")
-	)
 	(label "HALL2_5V"
 		(at 334.01 196.85 0)
 		(effects
@@ -15052,16 +14766,6 @@
 			(justify left bottom)
 		)
 		(uuid "557d1a5a-2be2-4e7c-b4f3-faf550bd9e9a")
-	)
-	(label "UART4.TX"
-		(at 115.57 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5757501e-9796-46f0-b902-8995468a8d9a")
 	)
 	(label "SPI2.SCK"
 		(at 81.28 100.33 0)
@@ -15262,16 +14966,6 @@
 			(justify left bottom)
 		)
 		(uuid "79cada63-ae18-45df-adb4-0d7c2dc12fa0")
-	)
-	(label "UART4.RX"
-		(at 115.57 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ece18ea-160e-4529-a5ee-99a775ac35bf")
 	)
 	(label "HALL1_5V"
 		(at 334.01 214.63 0)
@@ -15654,16 +15348,6 @@
 		(uuid "b0cec6ba-6278-4267-a32a-3b1eb0b5a215")
 	)
 	(label "5V"
-		(at 115.57 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0ec7832-5db3-47c2-a369-6b5349d6b642")
-	)
-	(label "5V"
 		(at 217.17 80.01 0)
 		(effects
 			(font
@@ -15993,16 +15677,6 @@
 		)
 		(uuid "e97593aa-6265-4fae-a82c-e264067a5666")
 	)
-	(label "5V"
-		(at 115.57 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb7466af-e4a7-4504-91d2-78ab1900c76d")
-	)
 	(label "AGPIO3"
 		(at 157.48 455.93 0)
 		(effects
@@ -16022,16 +15696,6 @@
 			(justify left bottom)
 		)
 		(uuid "ecaa0550-ff5c-4c51-9326-33fb3edd778e")
-	)
-	(label "5V"
-		(at 115.57 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ede68bcd-a712-4e4b-8924-83eca9a0da08")
 	)
 	(label "I2C1.SCL"
 		(at 125.73 431.8 0)
@@ -22767,139 +22431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 134.62 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4445c7a6-144f-45f9-b1b0-deb3d850d924")
-		(property "Reference" "J20"
-			(at 137.16 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 137.16 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
-			(at 134.62 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 134.62 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 134.62 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C157991"
-			(at 134.62 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 134.62 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 134.62 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 134.62 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 134.62 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61c9e38a-99b0-41b3-978c-9e03622f8746")
-		)
-		(pin "3"
-			(uuid "92ecc144-9700-49c7-855d-db4a058618eb")
-		)
-		(pin "4"
-			(uuid "7c1bc85e-5d7d-47c0-8fcd-cd8d904821be")
-		)
-		(pin "5"
-			(uuid "866fcbc1-f6e3-43a8-9f9d-4f63f340a33a")
-		)
-		(pin "2"
-			(uuid "e33908bb-6c97-407d-8a0e-0ac4bee98d9d")
-		)
-		(instances
-			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/becd8bd3-4d11-46de-85b5-377ba260c0f8"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 152.4 265.43 0)
 		(unit 1)
@@ -22959,139 +22490,6 @@
 			(project "hw-openmower-universal"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/becd8bd3-4d11-46de-85b5-377ba260c0f8"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 134.62 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4add4b47-be72-471b-ad77-2dadf108d89e")
-		(property "Reference" "J11"
-			(at 137.16 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 137.16 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
-			(at 134.62 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 134.62 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 134.62 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C157991"
-			(at 134.62 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 134.62 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 134.62 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 134.62 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 134.62 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4182dce8-5525-4b00-a68f-d8f2147ca8ab")
-		)
-		(pin "3"
-			(uuid "e61ea7e4-7dc3-4e5e-8765-64433b2eb04b")
-		)
-		(pin "4"
-			(uuid "a5d3a2e7-c1cf-4758-b77a-a27eb90d3853")
-		)
-		(pin "5"
-			(uuid "bb8ac272-a962-46a4-bdef-979a99de6ff6")
-		)
-		(pin "2"
-			(uuid "0734f3e4-45bb-492f-ae3f-eb78000e4e5e")
-		)
-		(instances
-			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/becd8bd3-4d11-46de-85b5-377ba260c0f8"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -30370,139 +29768,6 @@
 			(project "hw-openmower-universal"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/becd8bd3-4d11-46de-85b5-377ba260c0f8"
 					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 134.62 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90070397-c931-4cfb-adfc-dbf494e89b63")
-		(property "Reference" "J21"
-			(at 137.16 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 137.16 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C157991"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50bf37bf-e489-460f-b2a2-d30e9cefcae8")
-		)
-		(pin "3"
-			(uuid "b945ce7f-a338-4700-8e93-d9d97dd7ac9b")
-		)
-		(pin "4"
-			(uuid "f7f601a2-d5a4-45de-b633-343028161bf4")
-		)
-		(pin "5"
-			(uuid "2b263c9c-0844-4965-a174-adbe3c33a6bb")
-		)
-		(pin "2"
-			(uuid "0c64b1e9-f4e0-42d0-9757-96a3c7ce9acd")
-		)
-		(instances
-			(project "hw-openmower-universal"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/becd8bd3-4d11-46de-85b5-377ba260c0f8"
-					(reference "J21")
 					(unit 1)
 				)
 			)
