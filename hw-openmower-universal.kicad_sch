@@ -112,6 +112,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MouseBite"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "B"
+				(at 0.635 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MouseBite"
+				(at 0.635 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mouse bites, break lines"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mouse break line"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MouseBite* BreakLine*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MouseBite_1_1"
+				(polyline
+					(pts
+						(xy 0 4.32) (xy 1.27 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.32) (xy 0 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.32) (xy 1.27 -4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.32) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.175) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.905)
+					(mid 1.0031 2.54)
+					(end 1.27 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -0.635)
+					(mid 1.0031 0)
+					(end 1.27 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -3.175)
+					(mid 1.007 -2.54)
+					(end 1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -287,18 +476,6 @@
 		(uuid "270fcb0b-62b4-42cb-bbd4-791c1fae9675")
 	)
 	(junction
-		(at 276.86 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "280e334c-f1f3-4983-a34b-0d943408295e")
-	)
-	(junction
-		(at 134.62 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46c8fff9-66b8-4357-9a70-2fbf7ff4b111")
-	)
-	(junction
 		(at 59.69 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -395,15 +572,6 @@
 		(uuid "e3fd1b15-5bcf-4773-ae69-f262b9bee3e3")
 	)
 	(bus_entry
-		(at 269.24 144.78)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05dc0800-6308-4988-8663-148bed5d3655")
-	)
-	(bus_entry
 		(at 162.56 119.38)
 		(size -2.54 -2.54)
 		(stroke
@@ -467,24 +635,6 @@
 		(uuid "636a5af4-f46a-4309-a2a2-790d4da35aff")
 	)
 	(bus_entry
-		(at 266.7 144.78)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779b7816-77cb-4b8a-82a4-7507d5e2abef")
-	)
-	(bus_entry
-		(at 125.73 111.76)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ae21626-049a-4a4a-8758-f8f7518cba86")
-	)
-	(bus_entry
 		(at 195.58 106.68)
 		(size 2.54 2.54)
 		(stroke
@@ -504,7 +654,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 127) (xy 276.86 127)
+			(xy 181.61 127) (xy 287.02 127)
 		)
 		(stroke
 			(width 0)
@@ -541,16 +691,6 @@
 			(type default)
 		)
 		(uuid "11d471ed-5848-4570-a678-c26ded0fc45d")
-	)
-	(wire
-		(pts
-			(xy 276.86 127) (xy 276.86 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eddda6a-67d5-4a03-9d7f-d586630aa8e2")
 	)
 	(wire
 		(pts
@@ -624,33 +764,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 127) (xy 134.62 127)
+			(xy 120.65 127) (xy 151.13 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "35284ad7-3c96-4bf5-a307-34fa39b8bbbb")
-	)
-	(wire
-		(pts
-			(xy 276.86 127) (xy 181.61 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3598defb-a5ca-4016-82cc-d1b72d55d24e")
-	)
-	(wire
-		(pts
-			(xy 125.73 111.76) (xy 125.73 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3883c4a1-5aa1-48fe-b316-1d9e7f2b0dd4")
 	)
 	(wire
 		(pts
@@ -924,26 +1044,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 147.32) (xy 266.7 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72e84bbd-26d9-43e6-a8f1-c804b0cc7e79")
-	)
-	(bus
-		(pts
-			(xy 269.24 100.33) (xy 269.24 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74b8a3de-bf1b-42e5-b529-5d1ceade7bdf")
-	)
-	(wire
-		(pts
 			(xy 62.23 83.82) (xy 64.77 83.82)
 		)
 		(stroke
@@ -951,26 +1051,6 @@
 			(type default)
 		)
 		(uuid "7b548c3e-00cc-4ba0-87e6-9506b719dae7")
-	)
-	(bus
-		(pts
-			(xy 264.16 100.33) (xy 264.16 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fdd544b-ffbb-4c45-9c8f-2819fd79ff84")
-	)
-	(wire
-		(pts
-			(xy 264.16 147.32) (xy 264.16 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "824cbb78-c649-4626-be05-87a7c0c20287")
 	)
 	(bus
 		(pts
@@ -1064,26 +1144,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 127) (xy 134.62 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a784de37-6e61-48a7-8e47-a0d7c5ef3dfa")
-	)
-	(bus
-		(pts
-			(xy 132.08 140.97) (xy 264.16 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8f4d64a-9cd5-4c7d-9f1d-d1221a1b1cc0")
-	)
-	(wire
-		(pts
 			(xy 59.69 36.83) (xy 62.23 36.83)
 		)
 		(stroke
@@ -1101,16 +1161,6 @@
 			(type default)
 		)
 		(uuid "ab4d7b39-20ba-4c2e-b9bd-838f870d1aa3")
-	)
-	(bus
-		(pts
-			(xy 269.24 144.78) (xy 266.7 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abe20986-eac7-4ef3-811d-a45ff8826e13")
 	)
 	(wire
 		(pts
@@ -1182,16 +1232,6 @@
 		)
 		(uuid "c0ca2fdf-0c4f-4819-89b1-6ce94f390480")
 	)
-	(wire
-		(pts
-			(xy 134.62 127) (xy 120.65 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3736e4b-e9f4-42c2-a689-f9de6f9d3449")
-	)
 	(bus
 		(pts
 			(xy 162.56 119.38) (xy 165.1 119.38)
@@ -1202,16 +1242,6 @@
 		)
 		(uuid "c48ce1d2-bfc5-4c3b-a034-0afa04d738ab")
 	)
-	(bus
-		(pts
-			(xy 132.08 163.83) (xy 132.08 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ec7641-c116-4678-9cac-5834e6576530")
-	)
 	(wire
 		(pts
 			(xy 129.54 78.74) (xy 129.54 121.92)
@@ -1221,16 +1251,6 @@
 			(type default)
 		)
 		(uuid "c83c5ebb-7b13-4a75-bf0e-757b2d2a6329")
-	)
-	(bus
-		(pts
-			(xy 128.27 109.22) (xy 137.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb6c95d1-fd2a-4257-8810-629e2abf0899")
 	)
 	(bus
 		(pts
@@ -1261,16 +1281,6 @@
 			(type default)
 		)
 		(uuid "d373f8c3-3c46-40a6-8b18-f552ad9999d4")
-	)
-	(wire
-		(pts
-			(xy 148.59 129.54) (xy 148.59 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4f00e35-021c-4a8c-88e5-cedf0300080d")
 	)
 	(wire
 		(pts
@@ -1542,36 +1552,6 @@
 		)
 		(uuid "85d8c228-3cf5-4d25-bfc3-ab8658d6d2fd")
 	)
-	(label "AGPIO4"
-		(at 125.73 160.02 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "971d2142-dd64-4231-8140-9c16e56031f9")
-	)
-	(label "UART6{TX RX}"
-		(at 269.24 118.11 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "978a61e5-ec82-41d4-8cc0-2945816010a4")
-	)
-	(label "UART6.RX"
-		(at 266.7 147.32 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4eae248-c0f1-4895-9ed2-1f5b9845d1cc")
-	)
 	(label "AGPIO2"
 		(at 165.1 100.33 90)
 		(effects
@@ -1592,16 +1572,6 @@
 		)
 		(uuid "c01c3ca1-195e-4dfe-bdda-78f281a28df3")
 	)
-	(label "UART6.TX"
-		(at 264.16 147.32 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c29ac13a-7d7c-4d16-89c1-0ae4f60ff0ab")
-	)
 	(label "UART2.RX"
 		(at 160.02 100.33 90)
 		(effects
@@ -1611,16 +1581,6 @@
 			(justify left bottom)
 		)
 		(uuid "ca31ba3c-fefe-452f-9d3b-ed73d0a1c7e1")
-	)
-	(label "I2C1{SDA SCL}"
-		(at 264.16 105.41 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d15d94d1-0e2e-4212-9878-d709e28c7937")
 	)
 	(label "5V"
 		(at 120.65 100.33 90)
@@ -13350,6 +13310,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MouseBite")
+		(at 45.72 102.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd48d086-8a43-43fd-9759-bf2e10facd3f")
+		(property "Reference" "B1"
+			(at 48.26 101.6624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MouseBite"
+			(at 48.26 104.2024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
+			(at 45.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mouse bites, break lines"
+			(at 45.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 30.48 34.29 0)
 		(unit 1)
@@ -14507,36 +14531,6 @@
 				(justify left top)
 			)
 		)
-		(pin "TXD" output
-			(at 266.7 163.83 90)
-			(uuid "a058941d-0c6e-4aa7-9676-cfe71e31af5c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RXD" input
-			(at 264.16 163.83 90)
-			(uuid "17fbd269-28c3-4c77-80da-08f32da6a07f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V" input
-			(at 276.86 163.83 90)
-			(uuid "4bdc27b8-89c5-4c01-9d3d-f180d8a2e3e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "hw-openmower-universal"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
@@ -14577,46 +14571,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "V_CHARGE_SENSE" input
-			(at 125.73 163.83 90)
-			(uuid "7b0f55df-b548-48eb-9d91-e9909bed2a95")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C{SDA SCL}" input
-			(at 132.08 163.83 90)
-			(uuid "4f44ef5e-13c7-43cf-a91e-2348042efad2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V" input
-			(at 134.62 163.83 90)
-			(uuid "94e96fe1-ae71-40e1-a0af-42dad977d133")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_BATTERY" output
-			(at 148.59 163.83 90)
-			(uuid "9d0e640e-2cea-4369-b928-ba9ee91c4d3d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances

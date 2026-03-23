@@ -2337,16 +2337,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 24.13) (xy 58.42 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12b8e567-c4e9-42b3-8dae-2b3fe7506aff")
-	)
-	(wire
-		(pts
 			(xy 87.63 92.71) (xy 92.71 92.71)
 		)
 		(stroke
@@ -2547,16 +2537,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 20.32) (xy 38.1 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e78400a-fb7e-4ad6-ad7d-70a39a1a7727")
-	)
-	(wire
-		(pts
 			(xy 191.77 19.05) (xy 212.09 19.05)
 		)
 		(stroke
@@ -2574,16 +2554,6 @@
 			(type default)
 		)
 		(uuid "56771a82-735f-4d7e-932e-54efcfbff4c5")
-	)
-	(wire
-		(pts
-			(xy 38.1 31.75) (xy 58.42 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dfb573a-c23d-498c-b7b7-21a747aba69e")
 	)
 	(wire
 		(pts
@@ -2764,16 +2734,6 @@
 			(type default)
 		)
 		(uuid "89ddefe6-b657-4713-b825-7a58d106f6ce")
-	)
-	(bus
-		(pts
-			(xy 38.1 27.94) (xy 58.42 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a2bd079-5b12-4692-9c43-1a8bc81012dc")
 	)
 	(wire
 		(pts
@@ -3155,16 +3115,6 @@
 		)
 		(uuid "1001f310-b680-44cd-98af-a4739e7e5462")
 	)
-	(label "5V"
-		(at 58.42 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "212bbd13-ef34-4040-b30f-ceb6cab942d4")
-	)
 	(label "V_BATTERY"
 		(at 72.39 142.24 0)
 		(effects
@@ -3196,16 +3146,6 @@
 		(uuid "4a5630d5-a35f-4c67-b639-f4c2d866fb05")
 	)
 	(label "I2C{SDA SCL}"
-		(at 58.42 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4f720cca-81cb-4dba-b7ea-6274e2dc6a40")
-	)
-	(label "I2C{SDA SCL}"
 		(at 229.87 82.55 0)
 		(effects
 			(font
@@ -3234,16 +3174,6 @@
 			(justify left bottom)
 		)
 		(uuid "87c55879-bb4c-4ce1-a203-d104ca7cd34b")
-	)
-	(label "V_BATTERY"
-		(at 58.42 20.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91ce80aa-0df4-4c3a-bed3-e3b2db4d42ae")
 	)
 	(label "5V"
 		(at 191.77 13.97 0)
@@ -3296,16 +3226,6 @@
 		(uuid "f3024f14-7dd9-4f96-a4ff-39ff529b0279")
 	)
 	(label "V_CHARGE_SENSE"
-		(at 58.42 24.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6f5f2dc-962c-43df-874d-9ba293739221")
-	)
-	(label "V_CHARGE_SENSE"
 		(at 191.77 21.59 0)
 		(effects
 			(font
@@ -3314,50 +3234,6 @@
 			(justify left bottom)
 		)
 		(uuid "fbb21078-5faf-473a-a703-d454f712ef92")
-	)
-	(hierarchical_label "V_CHARGE_SENSE"
-		(shape input)
-		(at 38.1 24.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "07a84da5-b632-4b6a-a45a-3f7a9a808ccb")
-	)
-	(hierarchical_label "I2C{SDA SCL}"
-		(shape input)
-		(at 38.1 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8616cc16-687a-4aff-bd80-d2eb336419b8")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 38.1 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a23d3240-5619-407e-b390-b74c898c4299")
-	)
-	(hierarchical_label "V_BATTERY"
-		(shape output)
-		(at 38.1 20.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1972f8a-3da9-47ac-a63f-9a0e208f0f52")
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
