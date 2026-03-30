@@ -2740,7 +2740,7 @@
 				)
 			)
 			(property "Footprint" "local_CHARGER:BQ25756RRVR"
-				(at 0 0 0)
+				(at -0.254 53.34 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2788,7 +2788,7 @@
 				)
 			)
 			(property "Package" "VFQFN-36 Texas Instruments"
-				(at 0 0 0)
+				(at 30.48 53.594 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2808,7 +2808,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/BQ25756RRVR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
+				(at 2.286 40.132 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2838,7 +2838,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BQ25756RRVR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
+				(at 5.588 50.546 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2848,7 +2848,7 @@
 				)
 			)
 			(property "MP" "BQ25756RRVR"
-				(at 0 0 0)
+				(at -26.162 54.102 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2858,7 +2858,7 @@
 				)
 			)
 			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=14913022&manufacturer=Texas Instruments&part_name=BQ25756RRVR&search_term=bq25756rrvr"
-				(at 0 0 0)
+				(at 2.54 43.942 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2867,8 +2867,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\nStand-alone or I&sup2;C-controlled 70-V bidirectional buck-boost charge controller with MPPT\n"
-				(at 0 0 0)
+			(property "Description_1" "Stand-alone or I&sup2;C-controlled 70-V bidirectional buck-boost charge controller with MPPT"
+				(at -2.286 47.244 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2878,7 +2878,7 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 0 0 0)
+				(at -27.686 58.42 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3144,7 +3144,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -20.32 -30.48 0)
+					(at -20.32 -29.21 0)
 					(length 5.08)
 					(name "NC"
 						(effects
@@ -3153,7 +3153,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "31"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3162,7 +3162,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -20.32 -30.48 0)
+					(at -20.32 -31.75 0)
 					(length 5.08)
 					(name "NC"
 						(effects
@@ -3180,7 +3180,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -20.32 -30.48 0)
+					(at -20.32 -34.29 0)
 					(length 5.08)
 					(name "NC"
 						(effects
@@ -3189,7 +3189,7 @@
 							)
 						)
 					)
-					(number "31"
+					(number "15"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3198,25 +3198,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 33.02 180)
-					(length 5.08)
-					(name "VAC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 33.02 180)
+					(at 20.32 34.29 180)
 					(length 5.08)
 					(name "VAC"
 						(effects
@@ -3234,7 +3216,25 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 30.48 180)
+					(at 20.32 31.75 180)
+					(length 5.08)
+					(name "VAC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 29.21 180)
 					(length 5.08)
 					(name "BTST1"
 						(effects
@@ -3252,7 +3252,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 27.94 180)
+					(at 20.32 26.67 180)
 					(length 5.08)
 					(name "BTST2"
 						(effects
@@ -3270,7 +3270,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 25.4 180)
+					(at 20.32 24.13 180)
 					(length 5.08)
 					(name "DRV_SUP"
 						(effects
@@ -3522,7 +3522,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -30.48 180)
+					(at 20.32 -29.21 180)
 					(length 5.08)
 					(name "EXP"
 						(effects
@@ -3540,25 +3540,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -33.02 180)
-					(length 5.08)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -33.02 180)
+					(at 20.32 -31.75 180)
 					(length 5.08)
 					(name "PGND"
 						(effects
@@ -3568,6 +3550,24 @@
 						)
 					)
 					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -34.29 180)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3849,6 +3849,12 @@
 		(uuid "08b5f418-8615-4c56-82ac-267346b2cd63")
 	)
 	(junction
+		(at 187.96 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12efeb6d-161f-43e4-acd4-1e3d6d564933")
+	)
+	(junction
 		(at 107.95 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3915,10 +3921,10 @@
 		(uuid "3e5a7f12-406d-4a1f-8209-d2ffa0076c07")
 	)
 	(junction
-		(at 193.04 143.51)
+		(at 185.42 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ee2aa34-eecd-47d4-b0cd-fa97ee8b40e8")
+		(uuid "3eddf90e-ace0-4425-b4bf-f12605cbc27e")
 	)
 	(junction
 		(at 204.47 257.81)
@@ -3945,12 +3951,6 @@
 		(uuid "46acd825-5cf0-4eb9-abe4-f6dce4fff171")
 	)
 	(junction
-		(at 194.31 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47ab86b1-7bb4-45d1-9142-5514f6a04ee7")
-	)
-	(junction
 		(at 48.26 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3961,6 +3961,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4be6cacb-409f-46b3-b7dd-3cf272ddb8d1")
+	)
+	(junction
+		(at 187.96 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c490b25-b3aa-4af4-82c2-525959db2346")
 	)
 	(junction
 		(at 440.69 124.46)
@@ -4035,12 +4041,6 @@
 		(uuid "89b10af6-6485-4513-b7ed-964aa7e59fa0")
 	)
 	(junction
-		(at 185.42 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c2613d0-401c-4a10-a78a-e6701abf2e35")
-	)
-	(junction
 		(at 77.47 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4057,12 +4057,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97d18aa2-3919-40a0-aa02-f0537c68bbb9")
-	)
-	(junction
-		(at 185.42 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ca9ae3a-752f-497a-a18a-9c02b9bf4a81")
 	)
 	(junction
 		(at 455.93 124.46)
@@ -4099,6 +4093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a78a83b3-4c9d-4225-9fd2-0c5e5bc867ba")
+	)
+	(junction
+		(at 194.31 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7f553cc-7195-4b4c-b560-e43d9d4268f7")
 	)
 	(junction
 		(at 347.98 209.55)
@@ -4257,6 +4257,12 @@
 		(uuid "e28d005a-19c6-488c-8529-8a1a75c33369")
 	)
 	(junction
+		(at 187.96 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e39f9229-b024-4d2b-a9ce-a0dc3e9e6dce")
+	)
+	(junction
 		(at 321.31 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4347,6 +4353,16 @@
 			(type default)
 		)
 		(uuid "03471934-8169-49c3-a845-a1222143d490")
+	)
+	(wire
+		(pts
+			(xy 185.42 177.8) (xy 187.96 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03514f37-cff8-449f-a6a4-be19858c3dd0")
 	)
 	(wire
 		(pts
@@ -4460,6 +4476,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 102.87) (xy 187.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d929d5-3dda-4545-aecc-2bce2099ce65")
+	)
+	(wire
+		(pts
 			(xy 100.33 217.17) (xy 88.9 217.17)
 		)
 		(stroke
@@ -4477,6 +4503,16 @@
 			(type default)
 		)
 		(uuid "1503c4b3-5046-41b3-b0da-3bf99e34da45")
+	)
+	(wire
+		(pts
+			(xy 185.42 114.3) (xy 198.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165638ca-5ba7-4fc2-bcc1-b6d59cfa2268")
 	)
 	(wire
 		(pts
@@ -4740,6 +4776,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 116.84) (xy 215.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db36601-8e23-4768-8605-3eb060dd0baf")
+	)
+	(wire
+		(pts
 			(xy 105.41 215.9) (xy 105.41 220.98)
 		)
 		(stroke
@@ -4760,6 +4806,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 180.34) (xy 187.96 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb95782-b957-4e45-868e-f896ccde381b")
+	)
+	(wire
+		(pts
 			(xy 422.91 133.35) (xy 422.91 138.43)
 		)
 		(stroke
@@ -4767,6 +4823,16 @@
 			(type default)
 		)
 		(uuid "2f6c975e-8c65-48a5-8612-0307420de83c")
+	)
+	(wire
+		(pts
+			(xy 194.31 119.38) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc12297-1ef4-4ae9-a737-1b3e3e2dd5b9")
 	)
 	(wire
 		(pts
@@ -4817,6 +4883,16 @@
 			(type default)
 		)
 		(uuid "329a7e7d-730a-4761-ad50-0022e91e7133")
+	)
+	(wire
+		(pts
+			(xy 198.12 106.68) (xy 198.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bebab9-0354-4023-83ea-dfe991d4e364")
 	)
 	(wire
 		(pts
@@ -5050,6 +5126,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 111.76) (xy 187.96 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4994a251-f1f5-418f-8b9f-f1c66e4203f3")
+	)
+	(wire
+		(pts
 			(xy 88.9 228.6) (xy 100.33 228.6)
 		)
 		(stroke
@@ -5157,16 +5243,6 @@
 			(type default)
 		)
 		(uuid "56a60836-489e-43a9-85ce-d35f551a33d5")
-	)
-	(wire
-		(pts
-			(xy 185.42 110.49) (xy 185.42 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57269888-dd24-46dc-b11b-1ffb7cfebdc5")
 	)
 	(wire
 		(pts
@@ -5290,16 +5366,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 118.11) (xy 205.74 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab3fe4e-38cc-47fd-be91-397d926eb05e")
-	)
-	(wire
-		(pts
 			(xy 312.42 186.69) (xy 312.42 193.04)
 		)
 		(stroke
@@ -5360,13 +5426,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 176.53) (xy 185.42 184.15)
+			(xy 185.42 172.72) (xy 187.96 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f929630-218e-4961-bd58-3f210fa2104e")
+		(uuid "6fc0a665-c779-468d-9272-f2976281e59c")
 	)
 	(wire
 		(pts
@@ -5377,16 +5443,6 @@
 			(type default)
 		)
 		(uuid "727ce245-bd75-4a71-86ba-a3492abd48f5")
-	)
-	(wire
-		(pts
-			(xy 198.12 113.03) (xy 185.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739d3c73-b659-4a61-8c92-9ca306a74ec6")
 	)
 	(wire
 		(pts
@@ -5460,6 +5516,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 109.22) (xy 187.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ab50d7-6913-4829-8f5c-9d69854e6936")
+	)
+	(wire
+		(pts
 			(xy 237.49 248.92) (xy 245.11 248.92)
 		)
 		(stroke
@@ -5510,23 +5576,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 118.11) (xy 194.31 76.2)
+			(xy 194.31 119.38) (xy 194.31 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "83eedd21-189e-4fb2-8d7e-5e2b30bfffa6")
-	)
-	(wire
-		(pts
-			(xy 198.12 106.68) (xy 198.12 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84cdbd19-09df-4277-920b-42e1728a7056")
 	)
 	(wire
 		(pts
@@ -5617,6 +5673,16 @@
 			(type default)
 		)
 		(uuid "8faa71c8-65f1-4a1e-b5ea-f7aa51e517ae")
+	)
+	(wire
+		(pts
+			(xy 187.96 175.26) (xy 187.96 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902123a3-73c1-4cbd-af89-ac8f6d299013")
 	)
 	(wire
 		(pts
@@ -5810,6 +5876,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 172.72) (xy 187.96 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c2c7bc-e60d-4562-828e-11f8ce7b1c07")
+	)
+	(wire
+		(pts
 			(xy 281.94 137.16) (xy 281.94 139.7)
 		)
 		(stroke
@@ -5837,16 +5913,6 @@
 			(type default)
 		)
 		(uuid "a939a53e-81fe-44a9-b6e8-77e70ef06a24")
-	)
-	(wire
-		(pts
-			(xy 193.04 143.51) (xy 194.31 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abbee95e-0449-4dd3-a07f-3055068e35e2")
 	)
 	(wire
 		(pts
@@ -5930,13 +5996,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 173.99) (xy 185.42 176.53)
+			(xy 185.42 175.26) (xy 187.96 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b90c496f-c488-4561-8995-3e75e2a0df7a")
+		(uuid "b9d3167c-6b42-44ce-90d4-b40539acbad4")
 	)
 	(wire
 		(pts
@@ -5997,16 +6063,6 @@
 			(type default)
 		)
 		(uuid "bcf2f4f8-cce6-45a4-a71a-b2fd77073c0a")
-	)
-	(wire
-		(pts
-			(xy 185.42 115.57) (xy 215.9 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd34c471-432a-4ebe-82ab-d4007443e43b")
 	)
 	(wire
 		(pts
@@ -6140,7 +6196,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 118.11) (xy 194.31 118.11)
+			(xy 185.42 119.38) (xy 194.31 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6247,16 +6303,6 @@
 			(type default)
 		)
 		(uuid "d440366c-85ff-4674-87e1-6c28c6f8aa77")
-	)
-	(wire
-		(pts
-			(xy 215.9 115.57) (xy 215.9 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ab33c7-61a6-4f7a-9211-d95a44166d84")
 	)
 	(wire
 		(pts
@@ -6590,6 +6636,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 111.76) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2349523-b0ed-4276-b5f7-1ad4f12c332c")
+	)
+	(wire
+		(pts
 			(xy 414.02 140.97) (xy 414.02 144.78)
 		)
 		(stroke
@@ -6710,6 +6766,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 109.22) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd342026-5443-4a4f-8447-13b757e8280f")
+	)
+	(wire
+		(pts
 			(xy 105.41 203.2) (xy 107.95 203.2)
 		)
 		(stroke
@@ -6727,6 +6793,16 @@
 			(type default)
 		)
 		(uuid "fe4d457f-bfd8-408b-8519-005ec4f21f59")
+	)
+	(wire
+		(pts
+			(xy 215.9 102.87) (xy 215.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1494e5-aba6-480f-b595-af914ead19f2")
 	)
 	(wire
 		(pts
@@ -6839,12 +6915,12 @@
 		(uuid "4769d713-9eaf-44fa-b574-2fcc63c1895f")
 	)
 	(label "DRV_SUP"
-		(at 194.31 118.11 0)
+		(at 203.2 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4775ab43-8f5c-4c43-8d67-5033d44e3052")
 	)
@@ -7297,7 +7373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\nStand-alone or I&sup2;C-controlled 70-V bidirectional buck-boost charge controller with MPPT\n"
+		(property "Description_1" "Stand-alone or I&sup2;C-controlled 70-V bidirectional buck-boost charge controller with MPPT"
 			(at 165.1 143.51 0)
 			(effects
 				(font
@@ -24153,7 +24229,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 184.15 0)
+		(at 187.96 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24162,7 +24238,7 @@
 		(fields_autoplaced yes)
 		(uuid "98e48927-f9f8-48bf-b64c-161ae64f4287")
 		(property "Reference" "#PWR0144"
-			(at 185.42 190.5 0)
+			(at 187.96 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24171,7 +24247,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 189.23 0)
+			(at 187.96 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24179,7 +24255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 184.15 0)
+			(at 187.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24188,7 +24264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 184.15 0)
+			(at 187.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24197,7 +24273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 184.15 0)
+			(at 187.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
