@@ -6875,12 +6875,12 @@
 		(uuid "20280f3e-8b0b-49f5-abad-1bd0a2b6d5da")
 	)
 	(label "REGN"
-		(at 194.31 143.51 180)
+		(at 187.96 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "272636f6-e4df-42af-ad98-dea584ab114f")
 	)

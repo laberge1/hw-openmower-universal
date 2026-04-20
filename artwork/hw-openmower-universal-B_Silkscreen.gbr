@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.7*%
+%TF.CreationDate,2026-04-19T22:12:03-06:00*%
+%TF.ProjectId,hw-openmower-universal,68772d6f-7065-46e6-9d6f-7765722d756e,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.7) date 2026-04-19 22:12:03*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.508000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J45*%
+X130385600Y-109222800D02*
+G75*
+G02*
+X131147600Y-109222800I381000J0D01*
+G01*
+X131147600Y-109222800D02*
+G75*
+G02*
+X130385600Y-109222800I-381000J0D01*
+G01*
+%TD*%
+M02*
