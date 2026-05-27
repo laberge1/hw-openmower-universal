@@ -132,28 +132,6 @@
 		(layer "F.SilkS")
 		(uuid "15141b1c-a29b-400d-bd39-ba5eec80d75b")
 	)
-	(fp_arc
-		(start -7.366 -7.8486)
-		(mid -6.985 -8.2296)
-		(end -6.604 -7.8486)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "666f2d95-b256-4aa5-b45d-d63bd23a964e")
-	)
-	(fp_arc
-		(start -6.604 -7.8486)
-		(mid -6.985 -7.4676)
-		(end -7.366 -7.8486)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "232c1a9c-75fb-4dba-8f6f-d884d4e5957a")
-	)
 	(fp_line
 		(start -5.08 -9.7536)
 		(end -5.08 9.7536)

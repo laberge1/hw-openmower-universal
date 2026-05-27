@@ -18395,7 +18395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF@50V"
+		(property "Value" "100nF"
 			(at 148.59 177.7999 0)
 			(effects
 				(font
@@ -28126,7 +28126,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF@50V"
+		(property "Value" "100nF"
 			(at 36.83 529.5899 0)
 			(effects
 				(font
@@ -30614,7 +30614,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b83df66e-6487-4269-aced-b80298b76f46")
 		(property "Reference" "J45"
@@ -34207,7 +34207,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb12612a-6341-4756-a131-39581321207e")
 		(property "Reference" "J48"
@@ -37171,7 +37171,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef6e25cd-b723-460f-a03b-b6a083828121")
 		(property "Reference" "TP2"

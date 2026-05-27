@@ -7437,7 +7437,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF@50V"
+		(property "Value" "100nF"
 			(at 66.04 257.8099 0)
 			(effects
 				(font

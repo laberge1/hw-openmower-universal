@@ -21792,7 +21792,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cacc31a2-1375-4666-84ba-ac4578fd9457")
 		(property "Reference" "J49"

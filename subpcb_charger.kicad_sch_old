@@ -5497,7 +5497,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2045ccca-d6c2-4352-9280-4c0e8674c75e")
 		(property "Reference" "J47"

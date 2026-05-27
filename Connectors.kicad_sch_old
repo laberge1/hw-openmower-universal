@@ -9904,7 +9904,7 @@
 				)
 			)
 		)
-		(property "Value" "KH-2AF1804ZJ-14.2JB"
+		(property "Value" "~"
 			(at 88.265 173.99 0)
 			(effects
 				(font
@@ -9931,15 +9931,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C2979033"
 			(at 81.28 175.26 0)
 			(effects
 				(font

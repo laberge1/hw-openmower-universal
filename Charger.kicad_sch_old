@@ -33018,7 +33018,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c1fd0dbe-0d17-4ad5-9fd4-7cbb9f9e6908")
 		(property "Reference" "TP1"
 			(at 162.56 259.0801 90)
